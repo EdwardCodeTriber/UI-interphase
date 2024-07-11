@@ -2,26 +2,28 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='backlayout'>
-           
-            <div className='Nav'>
-              <div className='Logo'><img src='logo.png'></img> </div>
-              <div className='nav-list'>
-                <ul>
-                    <li><a href='#'>Furniture</a></li>
-                    <li><a href='#'>Showrooms</a></li>
-                    <li><a href='#'>About Us</a></li>
-                    <li><a href='#'>Trade</a></li>
-                    <li><a href='#'>Clearence</a></li>
-                </ul>
-                |
-                <ul className='links-social'>
-                    <li><a href='#'><i class="ri-facebook-fill"></i></a></li>
-                    <li><a href='#'><i class="ri-pinterest-fill"></i></a></li>
-                    <li><a href='#'><i class="ri-twitter-fill"></i></a></li>
-                </ul>
-              </div>
-            </div>
+    <div className='Navbar'>
+        <div className='logo'>
+            <img src='image-.png'></img>
+        </div>
+        <div className='Navlist'>
+            <ul>
+                <li><a href='#'>Find Work</a></li>
+                <li><a href='#'>Learn Design</a></li>
+                <li><a href='#'>Marketplace</a></li>
+                <li><a href='#'>Hire Designers</a></li>
+            </ul>
+        </div>
+        <div className='searchbar'>
+            <input><i class="ri-search-2-line"></i></input>
+        </div>
+        <div className='info-bar'>
+            <ul>
+                <li><a href='#'></a><i class="ri-notification-2-fill"></i></li>
+                <li><a href='#'></a><i class="ri-mail-settings-fill"></i></li>
+                <li><i class="ri-user-3-fill"></i></li>
+            </ul>
+        </div>
     </div>
   )
 }
