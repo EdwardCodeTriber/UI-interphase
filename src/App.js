@@ -2,6 +2,7 @@
 import './App.css';
 import Home from './Components/Home';
 import Main from './Components/Main';
+import SectionMain from './Components/SectionMain';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       
       <Home/>
       <Main/>
+      <SectionMain/>
     </div>
   );
 }

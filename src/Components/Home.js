@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <div className='backlayout'>
-            {/* <img src='background.png'></img> */}
+           
             <div className='Nav'>
               <div className='Logo'><img src='logo.png'></img> </div>
               <div className='nav-list'>
@@ -16,9 +16,9 @@ const Home = () => {
                 </ul>
                 |
                 <ul className='links-social'>
-                    <li><a href='#'><i class="ri-facebook-fill"></i></a>Facebook</li>
-                    <li><a href='#'><i class="ri-pinterest-fill"></i></a>pinterest</li>
-                    <li><a href='#'><i class="ri-twitter-fill"></i></a>twitter</li>
+                    <li><a href='#'><i class="ri-facebook-fill"></i></a></li>
+                    <li><a href='#'><i class="ri-pinterest-fill"></i></a></li>
+                    <li><a href='#'><i class="ri-twitter-fill"></i></a></li>
                 </ul>
               </div>
             </div>
